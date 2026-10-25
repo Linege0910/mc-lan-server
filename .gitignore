@@ -1,0 +1,25 @@
+# Android / Gradle
+build/
+.gradle/
+local.properties
+*.iml
+.idea/
+.cxx/
+captures/
+*.apk
+*.aab
+*.jks
+*.keystore
+keystore.properties
+
+# æœ¬é¡¹ç›®çš„ä¸­é—´äº§ç‰©
+.gen/
+.toolchain/
+
+# ç³»ç»Ÿ
+.DS_Store
+Thumbs.db
+
+# Python µ÷ÊÔ½Å±¾»º´æ
+__pycache__/
+*.pyc

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- 仅 debug 变体：供 adb 触发启动/停止，release 包不包含 -->
+        <receiver
+            android:name=".DebugReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.mclan.server.DEBUG_START" />
+                <action android:name="com.mclan.server.DEBUG_STOP" />
+                <action android:name="com.mclan.server.DEBUG_STATE" />
+                <action android:name="com.mclan.server.DEBUG_IMPORT_JDK" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
