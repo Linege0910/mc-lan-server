@@ -5,7 +5,8 @@
 
 - 包名 `com.mclan.server`　版本 **2.2.0**　约 750 KB　Android 8.0+（arm64）
 - 作者：**B 站 UID 102392702**（欢迎关注 → <https://space.bilibili.com/102392702>）
-- 项目已在 GitHub 开源
+- 开源仓库：<https://github.com/Linege0910/mc-lan-server>
+- 下载安装包：**[MC-LAN-Server-v2.2.0.apk](https://github.com/Linege0910/mc-lan-server/releases/download/v2.2.0/MC-LAN-Server-v2.2.0.apk)**
 - 应用**不含**服务端本体，启动时从官方地址下载；运行需遵守
   [Minecraft EULA](https://aka.ms/MinecraftEULA)
 
