@@ -23,3 +23,7 @@ Thumbs.db
 # Python 调试脚本缓存
 __pycache__/
 *.pyc
+
+# 本地上传辅助脚本
+push-to-github.ps1
+release-only.ps1
